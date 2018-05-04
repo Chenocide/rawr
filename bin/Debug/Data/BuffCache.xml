@@ -34,6 +34,16 @@
       <CharacterClass>Warrior</CharacterClass>
       <CharacterClass>DeathKnight</CharacterClass>
       <CharacterClass>Druid</CharacterClass>
+      <CharacterClass>Hunter</CharacterClass>
+      <CharacterClass>Mage</CharacterClass>
+      <CharacterClass>Paladin</CharacterClass>
+      <CharacterClass>Priest</CharacterClass>
+      <CharacterClass>Rogue</CharacterClass>
+      <CharacterClass>Shaman</CharacterClass>
+      <CharacterClass>Warlock</CharacterClass>
+      <CharacterClass>Warrior</CharacterClass>
+      <CharacterClass>DeathKnight</CharacterClass>
+      <CharacterClass>Druid</CharacterClass>
       <CharacterClass>Paladin</CharacterClass>
       <CharacterClass>Rogue</CharacterClass>
       <CharacterClass>Shaman</CharacterClass>
@@ -76,8 +86,21 @@
       <Profession>Mining</Profession>
       <Profession>Skinning</Profession>
       <Profession>Tailoring</Profession>
+      <Profession>None</Profession>
+      <Profession>Alchemy</Profession>
+      <Profession>Blacksmithing</Profession>
+      <Profession>Enchanting</Profession>
+      <Profession>Engineering</Profession>
+      <Profession>Herbalism</Profession>
+      <Profession>Inscription</Profession>
+      <Profession>Jewelcrafting</Profession>
+      <Profession>Leatherworking</Profession>
+      <Profession>Mining</Profession>
+      <Profession>Skinning</Profession>
+      <Profession>Tailoring</Profession>
     </Professions>
     <ConflictingBuffs>
+      <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
@@ -114,6 +137,16 @@
       <CharacterClass>Shaman</CharacterClass>
       <CharacterClass>Warlock</CharacterClass>
       <CharacterClass>Warrior</CharacterClass>
+      <CharacterClass>DeathKnight</CharacterClass>
+      <CharacterClass>Druid</CharacterClass>
+      <CharacterClass>Hunter</CharacterClass>
+      <CharacterClass>Mage</CharacterClass>
+      <CharacterClass>Paladin</CharacterClass>
+      <CharacterClass>Priest</CharacterClass>
+      <CharacterClass>Rogue</CharacterClass>
+      <CharacterClass>Shaman</CharacterClass>
+      <CharacterClass>Warlock</CharacterClass>
+      <CharacterClass>Warrior</CharacterClass>
       <CharacterClass>Hunter</CharacterClass>
       <CharacterClass>Rogue</CharacterClass>
       <CharacterClass>Shaman</CharacterClass>
@@ -156,8 +189,21 @@
       <Profession>Mining</Profession>
       <Profession>Skinning</Profession>
       <Profession>Tailoring</Profession>
+      <Profession>None</Profession>
+      <Profession>Alchemy</Profession>
+      <Profession>Blacksmithing</Profession>
+      <Profession>Enchanting</Profession>
+      <Profession>Engineering</Profession>
+      <Profession>Herbalism</Profession>
+      <Profession>Inscription</Profession>
+      <Profession>Jewelcrafting</Profession>
+      <Profession>Leatherworking</Profession>
+      <Profession>Mining</Profession>
+      <Profession>Skinning</Profession>
+      <Profession>Tailoring</Profession>
     </Professions>
     <ConflictingBuffs>
+      <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
@@ -205,6 +251,16 @@
       <CharacterClass>Shaman</CharacterClass>
       <CharacterClass>Warlock</CharacterClass>
       <CharacterClass>Warrior</CharacterClass>
+      <CharacterClass>DeathKnight</CharacterClass>
+      <CharacterClass>Druid</CharacterClass>
+      <CharacterClass>Hunter</CharacterClass>
+      <CharacterClass>Mage</CharacterClass>
+      <CharacterClass>Paladin</CharacterClass>
+      <CharacterClass>Priest</CharacterClass>
+      <CharacterClass>Rogue</CharacterClass>
+      <CharacterClass>Shaman</CharacterClass>
+      <CharacterClass>Warlock</CharacterClass>
+      <CharacterClass>Warrior</CharacterClass>
     </AllowedClasses>
     <Professions>
       <Profession>None</Profession>
@@ -243,8 +299,21 @@
       <Profession>Mining</Profession>
       <Profession>Skinning</Profession>
       <Profession>Tailoring</Profession>
+      <Profession>None</Profession>
+      <Profession>Alchemy</Profession>
+      <Profession>Blacksmithing</Profession>
+      <Profession>Enchanting</Profession>
+      <Profession>Engineering</Profession>
+      <Profession>Herbalism</Profession>
+      <Profession>Inscription</Profession>
+      <Profession>Jewelcrafting</Profession>
+      <Profession>Leatherworking</Profession>
+      <Profession>Mining</Profession>
+      <Profession>Skinning</Profession>
+      <Profession>Tailoring</Profession>
     </Professions>
     <ConflictingBuffs>
+      <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
@@ -315,6 +384,16 @@
           <CharacterClass>Shaman</CharacterClass>
           <CharacterClass>Warlock</CharacterClass>
           <CharacterClass>Warrior</CharacterClass>
+          <CharacterClass>DeathKnight</CharacterClass>
+          <CharacterClass>Druid</CharacterClass>
+          <CharacterClass>Hunter</CharacterClass>
+          <CharacterClass>Mage</CharacterClass>
+          <CharacterClass>Paladin</CharacterClass>
+          <CharacterClass>Priest</CharacterClass>
+          <CharacterClass>Rogue</CharacterClass>
+          <CharacterClass>Shaman</CharacterClass>
+          <CharacterClass>Warlock</CharacterClass>
+          <CharacterClass>Warrior</CharacterClass>
         </AllowedClasses>
         <Professions>
           <Profession>None</Profession>
@@ -354,8 +433,21 @@
           <Profession>Skinning</Profession>
           <Profession>Tailoring</Profession>
           <Profession>None</Profession>
+          <Profession>Alchemy</Profession>
+          <Profession>Blacksmithing</Profession>
+          <Profession>Enchanting</Profession>
+          <Profession>Engineering</Profession>
+          <Profession>Herbalism</Profession>
+          <Profession>Inscription</Profession>
+          <Profession>Jewelcrafting</Profession>
+          <Profession>Leatherworking</Profession>
+          <Profession>Mining</Profession>
+          <Profession>Skinning</Profession>
+          <Profession>Tailoring</Profession>
+          <Profession>None</Profession>
         </Professions>
         <ConflictingBuffs>
+          <string xsi:nil="true" />
           <string xsi:nil="true" />
           <string xsi:nil="true" />
           <string xsi:nil="true" />
@@ -2925,6 +3017,16 @@
       <CharacterClass>Shaman</CharacterClass>
       <CharacterClass>Warlock</CharacterClass>
       <CharacterClass>Warrior</CharacterClass>
+      <CharacterClass>DeathKnight</CharacterClass>
+      <CharacterClass>Druid</CharacterClass>
+      <CharacterClass>Hunter</CharacterClass>
+      <CharacterClass>Mage</CharacterClass>
+      <CharacterClass>Paladin</CharacterClass>
+      <CharacterClass>Priest</CharacterClass>
+      <CharacterClass>Rogue</CharacterClass>
+      <CharacterClass>Shaman</CharacterClass>
+      <CharacterClass>Warlock</CharacterClass>
+      <CharacterClass>Warrior</CharacterClass>
     </AllowedClasses>
     <Professions>
       <Profession>None</Profession>
@@ -5999,8 +6101,21 @@
       <Profession>Mining</Profession>
       <Profession>Skinning</Profession>
       <Profession>Tailoring</Profession>
+      <Profession>None</Profession>
+      <Profession>Alchemy</Profession>
+      <Profession>Blacksmithing</Profession>
+      <Profession>Enchanting</Profession>
+      <Profession>Engineering</Profession>
+      <Profession>Herbalism</Profession>
+      <Profession>Inscription</Profession>
+      <Profession>Jewelcrafting</Profession>
+      <Profession>Leatherworking</Profession>
+      <Profession>Mining</Profession>
+      <Profession>Skinning</Profession>
+      <Profession>Tailoring</Profession>
     </Professions>
     <ConflictingBuffs>
+      <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
@@ -8843,8 +8958,30 @@
           <CharacterClass>Shaman</CharacterClass>
           <CharacterClass>Warlock</CharacterClass>
           <CharacterClass>Warrior</CharacterClass>
+          <CharacterClass>DeathKnight</CharacterClass>
+          <CharacterClass>Druid</CharacterClass>
+          <CharacterClass>Hunter</CharacterClass>
+          <CharacterClass>Mage</CharacterClass>
+          <CharacterClass>Paladin</CharacterClass>
+          <CharacterClass>Priest</CharacterClass>
+          <CharacterClass>Rogue</CharacterClass>
+          <CharacterClass>Shaman</CharacterClass>
+          <CharacterClass>Warlock</CharacterClass>
+          <CharacterClass>Warrior</CharacterClass>
         </AllowedClasses>
         <Professions>
+          <Profession>None</Profession>
+          <Profession>Alchemy</Profession>
+          <Profession>Blacksmithing</Profession>
+          <Profession>Enchanting</Profession>
+          <Profession>Engineering</Profession>
+          <Profession>Herbalism</Profession>
+          <Profession>Inscription</Profession>
+          <Profession>Jewelcrafting</Profession>
+          <Profession>Leatherworking</Profession>
+          <Profession>Mining</Profession>
+          <Profession>Skinning</Profession>
+          <Profession>Tailoring</Profession>
           <Profession>None</Profession>
           <Profession>Alchemy</Profession>
           <Profession>Blacksmithing</Profession>
@@ -12175,12 +12312,23 @@
           <string xsi:nil="true" />
           <string xsi:nil="true" />
           <string xsi:nil="true" />
+          <string xsi:nil="true" />
         </ConflictingBuffs>
       </Buff>
     </Improvements>
     <IsTargetDebuff>false</IsTargetDebuff>
     <IsCustom>true</IsCustom>
     <AllowedClasses>
+      <CharacterClass>DeathKnight</CharacterClass>
+      <CharacterClass>Druid</CharacterClass>
+      <CharacterClass>Hunter</CharacterClass>
+      <CharacterClass>Mage</CharacterClass>
+      <CharacterClass>Paladin</CharacterClass>
+      <CharacterClass>Priest</CharacterClass>
+      <CharacterClass>Rogue</CharacterClass>
+      <CharacterClass>Shaman</CharacterClass>
+      <CharacterClass>Warlock</CharacterClass>
+      <CharacterClass>Warrior</CharacterClass>
       <CharacterClass>DeathKnight</CharacterClass>
       <CharacterClass>Druid</CharacterClass>
       <CharacterClass>Hunter</CharacterClass>
@@ -17815,8 +17963,21 @@
       <Profession>Mining</Profession>
       <Profession>Skinning</Profession>
       <Profession>Tailoring</Profession>
+      <Profession>None</Profession>
+      <Profession>Alchemy</Profession>
+      <Profession>Blacksmithing</Profession>
+      <Profession>Enchanting</Profession>
+      <Profession>Engineering</Profession>
+      <Profession>Herbalism</Profession>
+      <Profession>Inscription</Profession>
+      <Profession>Jewelcrafting</Profession>
+      <Profession>Leatherworking</Profession>
+      <Profession>Mining</Profession>
+      <Profession>Skinning</Profession>
+      <Profession>Tailoring</Profession>
     </Professions>
     <ConflictingBuffs>
+      <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
       <string xsi:nil="true" />
