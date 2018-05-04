@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Cat.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Cat.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.CalculationOptionsPanelCat.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Cat\obj\Debug\Rawr.Cat.pdb

@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Tree.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Tree.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.CalculationOptionsPanelTree.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Tree\obj\Debug\Rawr.Tree.pdb

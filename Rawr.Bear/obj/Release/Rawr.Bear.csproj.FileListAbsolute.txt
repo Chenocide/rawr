@@ -1,0 +1,8 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Bear.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Bear.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.CalculationOptionsPanelBear.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Release\Rawr.Bear.pdb

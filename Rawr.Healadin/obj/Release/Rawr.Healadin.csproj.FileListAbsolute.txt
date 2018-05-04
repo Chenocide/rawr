@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Healadin.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Healadin.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.CalculationOptionsPanelHealadin.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.Properties.Resources.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Healadin\obj\Release\Rawr.Healadin.pdb

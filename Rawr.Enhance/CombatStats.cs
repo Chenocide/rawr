@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.Text;
 
@@ -42,6 +43,8 @@ namespace Rawr.Enhance
         private float chanceMeleeHit = 0f;
         private float overSpellHitCap = 0f;
         private float overMeleeCritCap = 0f;
+        private float critCap = 1f;
+        public  float glacingBlowsCap = .25f;
         
         private float unhastedMHSpeed = 0f;
         private float hastedMHSpeed = 0f;
@@ -86,11 +89,11 @@ namespace Rawr.Enhance
         public float ExpertiseBonusMH { get { return expertiseBonusMH; } }
         public float ExpertiseBonusOH { get { return expertiseBonusOH; } }
 
-        public float NormalHitModifierMH { get { return ChanceWhiteHitMH - chanceWhiteCritMH - GlancingRate; } }
+        public float NormalHitModifierMH { get { return ChanceWhiteHitMH - chanceWhiteCritMH - GlancingRateModified; } }
         public float CritHitModifierMH { get { return chanceWhiteCritMH * (2f * (1f + _stats.BonusCritMultiplier)); } }
-        public float NormalHitModifierOH { get { return ChanceWhiteHitOH - chanceWhiteCritOH - GlancingRate; } }
+        public float NormalHitModifierOH { get { return ChanceWhiteHitOH - chanceWhiteCritOH - GlancingRateModified; } }
         public float CritHitModifierOH { get { return chanceWhiteCritOH * (2f * (1f + _stats.BonusCritMultiplier)); } }
-        public float GlancingHitModifier { get { return GlancingRate * 0.7f; } }
+        public float GlancingHitModifier { get { return GlancingRateModified * 0.7f; } }
         public float YellowHitModifierMH { get { return ChanceYellowHitMH * (1 - chanceYellowCritMH); } }
         public float YellowHitModifierOH { get { return ChanceYellowHitOH * (1 - chanceYellowCritOH); } }
         public float YellowCritModifierMH { get { return ChanceYellowHitMH * chanceYellowCritMH; } }
@@ -159,8 +162,8 @@ namespace Rawr.Enhance
 
         public float ExportMeleeCritMH { get { return exportMeleeCritMH; } } // doesn't include ED
         public float ExportMeleeCritOH { get { return exportMeleeCritOH; } } // doesn't include ED
-        public float DisplayMeleeCrit { get { return AverageWhiteCritChance + whiteCritDepression; } }
-        public float DisplayYellowCrit { get { return AverageYellowCritChance + yellowCritDepression; } }
+        public float DisplayMeleeCrit { get { return AverageWhiteCritChance; } }
+        public float DisplayYellowCrit { get { return AverageYellowCritChance; } }
         public float DisplaySpellCrit { get { return chanceSpellCrit - ftBonusCrit; } }
 
         public float MaxMana { get { return maxMana; } }
@@ -178,6 +181,7 @@ namespace Rawr.Enhance
         private float WhiteHitCap { get { return StatConversion.WHITE_MISS_CHANCE_CAP_DW[levelDifference]; } }
         private float YellowHitCap { get { return StatConversion.YELLOW_MISS_CHANCE_CAP[levelDifference]; } }
         private float SpellMissRate { get { return StatConversion.GetSpellMiss(-levelDifference, false); } }
+        public  float GlancingRateModified { get { return StatConversion.WHITE_GLANCE_CHANCE_CAP_MODIFIED[levelDifference]; } set { StatConversion.WHITE_GLANCE_CHANCE_CAP_MODIFIED[levelDifference] = value; } }
 
         public CombatStats(Character character, Stats stats, CalculationOptionsEnhance calcOpts)
         {
@@ -243,16 +247,33 @@ namespace Rawr.Enhance
             chanceParryMH = (float)Math.Max(0f, _calcOpts.InBack ? ParryChance * (1f - _calcOpts.InBackPerc / 100f) : ParryChance);
             ParryChance = ParryChanceCap - expertiseBonusOH;
             chanceParryOH = (float)Math.Max(0f, _calcOpts.InBack ? ParryChance * (1f - _calcOpts.InBackPerc / 100f) : ParryChance);
+
+            if (!firstPass)
+            { 
             chanceWhiteMissMH = Math.Max(0f, WhiteHitCap - hitBonus) + chanceDodgeMH + chanceParryMH;
             chanceWhiteMissOH = Math.Max(0f, WhiteHitCap - hitBonus) + chanceDodgeOH + chanceParryOH;
             chanceYellowMissMH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeMH + chanceParryMH; // base miss 8% now
             chanceYellowMissOH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeOH + chanceParryOH; // base miss 8% now
-            
+            }
+
             // SetCritValues((1 + _stats.BonusCritChance) * (baseMeleeCrit + meleeCritModifier) + .00005f); //fudge factor for rounding
             SetCritValues(baseMeleeCrit + meleeCritModifier + .00005f); //fudge factor for rounding
             // set two export values so that ED crit isn't included
             exportMeleeCritMH = chanceWhiteCritMH + whiteCritDepression;
             exportMeleeCritOH = chanceWhiteCritOH + whiteCritDepression;
+
+            //Recalculate miss chance if all glancing blows are removed - Dal-WOW
+            if (!firstPass)
+            {
+                //Math.Max(0f, WhiteHitCap - overMeleeCritCap);
+                if (0 < overMeleeCritCap)
+                {
+                    chanceWhiteMissMH = Math.Max(0f, WhiteHitCap - hitBonus - overMeleeCritCap) + chanceDodgeMH + chanceParryMH;
+                    chanceWhiteMissOH = Math.Max(0f, WhiteHitCap - hitBonus - overMeleeCritCap) + chanceDodgeOH + chanceParryOH;
+                    chanceYellowMissMH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeMH + chanceParryMH; // base miss 8% now
+                    chanceYellowMissOH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeOH + chanceParryOH; // base miss 8% now
+                }
+            }
 
             // Spells
             ftBonusCrit = 0f;
@@ -390,6 +411,18 @@ namespace Rawr.Enhance
             edBonusCrit = edUptime * edCritBonus;
             //SetCritValues((1 + _stats.BonusCritChance) * (baseMeleeCrit + meleeCritModifier) + edBonusCrit + .00005f); //fudge factor for rounding
             SetCritValues(baseMeleeCrit + meleeCritModifier + edBonusCrit + .00005f); //fudge factor for rounding
+            //Recalculate miss chance if all glancing blows are removed - Dal-WOW
+            //if (!firstPass)
+            //{
+            //    //Math.Max(0f, WhiteHitCap - overMeleeCritCap);
+            //    if (0 < overMeleeCritCap)
+            //    {
+            //        chanceWhiteMissMH = Math.Max(0f, WhiteHitCap - hitBonus - overMeleeCritCap) + chanceDodgeMH + chanceParryMH;
+            //        chanceWhiteMissOH = Math.Max(0f, WhiteHitCap - hitBonus - overMeleeCritCap) + chanceDodgeOH + chanceParryOH;
+            //        chanceYellowMissMH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeMH + chanceParryMH; // base miss 8% now
+            //        chanceYellowMissOH = Math.Max(0f, YellowHitCap - hitBonus) + chanceDodgeOH + chanceParryOH; // base miss 8% now
+            //    }
+            //}
             meleeAttacksPerSec = hitsPerSMH + hitsPerSOH;
             meleeCritsPerSec = (whiteHitsPerSMH * chanceWhiteCritMH) + (whiteHitsPerSOH * chanceWhiteCritOH) + 
                                (yellowHitsPerSMH * chanceYellowCritMH) + (yellowHitsPerSOH * chanceYellowCritOH) +
@@ -405,24 +438,34 @@ namespace Rawr.Enhance
 
         private void SetCritValues(float chanceCrit)
         {
-            // first set max crit chance after crit depression is 76% - miss chance (ie 100% - 24% glancing - miss chance) 
+            
+            // first set max crit chance after crit depression is 75% - miss chance (ie 100% - 25% glancing - miss chance) 
             // see http://elitistjerks.com/f31/t76785-crit_depression_combat_table/
             // miss chance includes dodge & parry
-            chanceWhiteCritMH = Math.Min(chanceCrit - whiteCritDepression, 1f - GlancingRate - chanceWhiteMissMH);
-            chanceWhiteCritOH = Math.Min(chanceCrit - whiteCritDepression, 1f - GlancingRate - chanceWhiteMissOH);
+            // Dal-wow values are 25% glacing and 24.2% dual wield miss chance
+            chanceWhiteCritMH = Math.Min(chanceCrit - whiteCritDepression, 1f - chanceWhiteMissMH);
+            chanceWhiteCritOH = Math.Min(chanceCrit - whiteCritDepression, 1f - chanceWhiteMissOH);
             chanceYellowCritMH = Math.Min(chanceCrit - yellowCritDepression, 1f - chanceYellowMissMH);
             chanceYellowCritOH = Math.Min(chanceCrit - yellowCritDepression, 1f - chanceYellowMissOH);
-            if (chanceCrit - whiteCritDepression > 1f - GlancingRate - chanceWhiteMissMH)
-                overMeleeCritCap = chanceCrit - whiteCritDepression - (1f - GlancingRate - chanceWhiteMissMH);
+            critCap = (1f - GlancingRate - chanceWhiteMissMH);
+            
+            if (chanceCrit - whiteCritDepression > 1f - chanceWhiteMissMH)
+            {
+                overMeleeCritCap = chanceCrit - whiteCritDepression - (1f - chanceWhiteMissMH);
+                
+            }
             else
                 overMeleeCritCap = 0f;
             // now apply min 1% crit chance
+
+            GlancingRateModified = Math.Min(1f - ChanceWhiteCritMH - chanceWhiteMissMH , GlancingRate);
             chanceWhiteCritMH = Math.Max(0.01f, chanceWhiteCritMH);
             chanceWhiteCritOH = Math.Max(0.01f, chanceWhiteCritOH);
             chanceYellowCritMH = Math.Max(0.01f, chanceYellowCritMH);
             chanceYellowCritOH = Math.Max(0.01f, chanceYellowCritOH);
+            critCap = Math.Max(0.01f, critCap);
         }
-
+        
         private float CalculateFlurryUptime(float c, float h, float m) // c = crit rate, h = hit rate, m = miss rate, assuming hits as noncrits only
         {
             h = h - c; // remove crits from hit figure
@@ -463,6 +506,16 @@ namespace Rawr.Enhance
         public float GetMeleeAttacksPerSec()
         {
             return meleeAttacksPerSec;
+        }
+
+        public float GetGlancingBlowCap()
+        {
+            return GlancingRateModified;
+        }
+
+        public float GetCritCap()
+        {
+            return critCap;
         }
 
         public float GetSpellCritsPerSec()

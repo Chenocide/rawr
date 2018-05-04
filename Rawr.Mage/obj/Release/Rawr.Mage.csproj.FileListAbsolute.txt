@@ -1,0 +1,13 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Mage.dll.config
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Mage.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Mage.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.CalculationOptionsPanelMage.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.CooldownRestrictionsForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.CycleAnalyzer.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.CustomSpellMixForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.SolverLogForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Release\Rawr.Mage.pdb

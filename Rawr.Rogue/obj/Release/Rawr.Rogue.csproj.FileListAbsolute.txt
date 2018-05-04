@@ -1,0 +1,8 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Rogue.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Rogue.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.CalculationOptionsPanelRogue.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Release\Rawr.Rogue.pdb

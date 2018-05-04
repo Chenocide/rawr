@@ -1,0 +1,10 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Enhance.dll.config
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Enhance.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Enhance.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.CalculationOptionsPanelEnhance.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Enhance\obj\Debug\Rawr.Enhance.csprojResolveAssemblyReference.cache

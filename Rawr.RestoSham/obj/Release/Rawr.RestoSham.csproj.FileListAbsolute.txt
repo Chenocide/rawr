@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.RestoSham.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.RestoSham.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.CalculationOptionsPanelRestoSham.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.RestoSham\obj\Release\Rawr.RestoSham.pdb

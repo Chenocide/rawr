@@ -1018,6 +1018,7 @@ namespace Rawr.DPSDK
 
             statsTotal = GetRelevantStats(statsTotal);
             statsTotal.Expertise += (float)StatConversion.GetExpertiseFromRating(statsTotal.ExpertiseRating);
+            statsTotal.Expertise += (float)(talents.TundraStalker + talents.RageOfRivendare) + 2f * (float)(talents.VeteranOfTheThirdWar);
 
             StatsSpecialEffects se = new StatsSpecialEffects(character, statsTotal, new CombatTable(character, statsTotal, calcOpts));
             Stats statSE = new Stats();

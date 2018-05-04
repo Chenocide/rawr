@@ -1,0 +1,12 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Hunter.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Hunter.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.CalculationOptionsPanelHunter.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.FormSavePetTalentSpec.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.PetBuffSelector.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.Properties.Resources.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Hunter\obj\Debug\Rawr.Hunter.pdb

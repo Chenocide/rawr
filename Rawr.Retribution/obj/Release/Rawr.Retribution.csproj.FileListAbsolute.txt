@@ -1,0 +1,12 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Retribution.dll.config
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Retribution.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Retribution.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.CalculationOptionsPanelRetribution.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.GraphForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.Properties.Resources.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Retribution\obj\Release\Rawr.Retribution.pdb

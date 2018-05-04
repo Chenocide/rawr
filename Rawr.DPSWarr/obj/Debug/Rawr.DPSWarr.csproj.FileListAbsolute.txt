@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.DPSWarr.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.DPSWarr.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.CalculationOptionsPanelDPSWarr.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSWarr\obj\Debug\Rawr.DPSWarr.pdb

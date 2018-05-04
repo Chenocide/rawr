@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.ShadowPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.ShadowPriest.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.CalculationOptionsPanelShadowPriest.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.SpellPriorityForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Release\Rawr.ShadowPriest.pdb

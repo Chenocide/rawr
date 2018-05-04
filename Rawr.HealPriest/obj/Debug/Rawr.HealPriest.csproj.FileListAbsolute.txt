@@ -1,0 +1,9 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.HolyPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.HolyPriest.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HealPriest.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HealPriest.CalculationOptionsPanelHealPriest.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HealPriest.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HealPriest.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HealPriest.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HolyPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.HealPriest\obj\Debug\Rawr.HolyPriest.pdb

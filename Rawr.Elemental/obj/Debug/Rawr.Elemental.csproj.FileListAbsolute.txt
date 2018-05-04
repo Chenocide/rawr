@@ -1,0 +1,8 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Elemental.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Elemental.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.CalculationOptionsPanelElemental.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Elemental\obj\Debug\Rawr.Elemental.pdb

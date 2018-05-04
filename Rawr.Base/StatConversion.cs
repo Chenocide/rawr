@@ -57,7 +57,8 @@ namespace Rawr
 
         // Attack Table for players attacking mobs                                        80       81        82      83
         public static readonly float[] WHITE_MISS_CHANCE_CAP            = new float[] { 0.0500f, 0.0520f, 0.0540f, 0.0800f };
-        public static readonly float[] WHITE_MISS_CHANCE_CAP_DW         = new float[] { 0.2400f, 0.2420f, 0.2440f, 0.2700f }; //  WHITE_MISS_CHANCE_CAP + 19%
+        public static readonly float[] WHITE_MISS_CHANCE_CAP_DW         = new float[] { 0.2400f, 0.2420f, 0.2440f, 0.2420f }; // WHITE_MISS_CHANCE_CAP + 19% - 24.2% Dalaran WoW
+        public static float[] WHITE_MISS_CHANCE_CAP_DW_MODIFIED         = new float[] { 0.2400f, 0.2420f, 0.2440f, 0.2420f }; // 24.2% Modified DW miss chance - Dalaran WoW
         //public static readonly float[] WHITE_MISS_CHANCE_CAP_BEHIND     = WHITE_MISS_CHANCE_CAP;
         //public static readonly float[] WHITE_MISS_CHANCE_CAP_DW_BEHIND  = WHITE_MISS_CHANCE_CAP_DW;
         public static readonly float[] YELLOW_MISS_CHANCE_CAP           = WHITE_MISS_CHANCE_CAP;
@@ -73,10 +74,11 @@ namespace Rawr
         public static readonly float[] YELLOW_PARRY_CHANCE_CAP          = WHITE_PARRY_CHANCE_CAP;
         //public static readonly float[] YELLOW_PARRY_CHANCE_CAP_BEHIND   = WHITE_PARRY_CHANCE_CAP_BEHIND;
 
-        public static readonly float[] WHITE_GLANCE_CHANCE_CAP          = new float[] { 0.1000f, 0.1500f, 0.2000f, 0.2400f }; // 25%
+        public static readonly float[] WHITE_GLANCE_CHANCE_CAP          = new float[] { 0.1000f, 0.1500f, 0.2000f, 0.2500f }; // 25%
         //public static readonly float[] WHITE_GLANCE_CHANCE_CAP_BEHIND   = WHITE_GLANCE_CHANCE_CAP;
         public static readonly float[] YELLOW_GLANCE_CHANCE_CAP         = new float[] { 0.0000f, 0.0000f, 0.0000f, 0.0000f }; //  0% Yellows don't glance
         //public static readonly float[] YELLOW_GLANCE_CHANCE_CAP_BEHIND  = YELLOW_GLANCE_CHANCE_CAP;
+        public static float[] WHITE_GLANCE_CHANCE_CAP_MODIFIED          = new float[] { 0.1000f, 0.1500f, 0.2000f, 0.2500f }; // 25% Modified glancing rate - Dalaran WoW 
 
         public static readonly float[] WHITE_BLOCK_CHANCE_CAP           = new float[] { 0.0500f, 0.0520f, 0.0540f, 0.0650f }; //  6.5%
         //public static readonly float[] WHITE_BLOCK_CHANCE_CAP_BEHIND    = new float[] { 0.0000f, 0.0000f, 0.0000f, 0.0000f }; //  0% Attacks from behind can't be blocked

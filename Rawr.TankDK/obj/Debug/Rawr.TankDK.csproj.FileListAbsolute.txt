@@ -1,0 +1,10 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.TankDK.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.TankDK.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.CalculationOptionsPanelTankDK.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.RotationViewer.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csprojResolveAssemblyReference.cache

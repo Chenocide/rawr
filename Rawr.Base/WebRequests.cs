@@ -668,50 +668,51 @@ namespace Rawr
 		/// <param name="localPath">local path, including file name,  where the downloaded file will be saved</param>
 		private void DownloadFile(string URI, string localPath, string contentType)
 		{
-			int retry = 0;
-			bool success = false;
+            int retry = 0;
+            bool success = false;
             //occasionally a zero byte file slips through without throwing an exception
-			if (!File.Exists(localPath) || new FileInfo(localPath).Length <= 0)
-			{
-				do
-				{
-					if (!LastWasFatalError)
-					{
-						if (!Directory.Exists(Path.GetDirectoryName(localPath)))
-						{
-							Directory.CreateDirectory(Path.GetDirectoryName(localPath));
-						}
-						using (WebClient client = CreateWebClient())
-						{
-							try
-							{
-								client.DownloadFile(URI, localPath);
-                                if(!client.ResponseHeaders[HttpResponseHeader.ContentType].StartsWith(contentType))
+            if (!File.Exists(localPath) || new FileInfo(localPath).Length <= 0)
+            {
+                do
+                {
+                    if (!LastWasFatalError)
+                    {
+                        if (!Directory.Exists(Path.GetDirectoryName(localPath)))
+                        {
+                            Directory.CreateDirectory(Path.GetDirectoryName(localPath));
+                        }
+                        using (WebClient client = CreateWebClient())
+                        {
+                            try
+                            {
+                                client.DownloadFile(URI, localPath);
+                                if (!client.ResponseHeaders[HttpResponseHeader.ContentType].StartsWith(contentType))
                                 {
                                     throw new Exception("Invalid Content Type or Address Invalid.");
                                 }
                                 success = true;
-							}
-							catch (Exception ex)
-							{
-								CheckExceptionForFatalError(ex);
-								//if on a client file download, there is an exception, 
-								//it will create a 0 byte file. We don't want that empty file.
-								if (File.Exists(localPath))
-								{
-									File.Delete(localPath);
-								}
-								retry++;
-								if (retry == RETRY_MAX || LastWasFatalError)
-								{
-									throw;
-								}
-							}
-						}
-					}
-				} while (retry <= RETRY_MAX && !success && !LastWasFatalError);
-			}
-		}
+                            }
+                            catch (Exception ex)
+                            {
+                                CheckExceptionForFatalError(ex);
+                                //if on a client file download, there is an exception, 
+                                //it will create a 0 byte file. We don't want that empty file.
+                                if (File.Exists(localPath))
+                                {
+                                    File.Delete(localPath);
+                                }
+                                retry++;
+                                if (retry == RETRY_MAX || LastWasFatalError)
+                                {
+                                    throw;
+                                }
+                            }
+                        }
+                    }
+                } while (retry <= RETRY_MAX && !success && !LastWasFatalError);
+
+            }
+        }
 
 		/// <summary>
 		/// This is used to prevent multiple attempts at network traffic when its not working and 

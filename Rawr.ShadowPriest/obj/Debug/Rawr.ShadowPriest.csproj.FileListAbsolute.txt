@@ -1,0 +1,10 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.ShadowPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.ShadowPriest.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.CalculationOptionsPanelShadowPriest.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.SpellPriorityForm.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ShadowPriest\obj\Debug\Rawr.ShadowPriest.csprojResolveAssemblyReference.cache

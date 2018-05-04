@@ -66,6 +66,8 @@ namespace Rawr.Enhance
    				    "Basic Stats:Hit Rating",
 					"Basic Stats:Haste Rating",
 					"Basic Stats:Armour Pen Rating",
+                    "Basic Stats:Crit Cap",
+                    "Basic Stats:Glancing Blows",
 					"Complex Stats:Avoided Attacks*The percentage of your attacks that fail to land.",
 					"Complex Stats:Avg MH Speed",
                     "Complex Stats:Avg OH Speed",
@@ -622,7 +624,7 @@ namespace Rawr.Enhance
             calculatedStats.TotalExpertiseMH = (float) Math.Floor(cs.ExpertiseBonusMH * 400f);
             calculatedStats.TotalExpertiseOH = (float) Math.Floor(cs.ExpertiseBonusOH * 400f);
             
-            calculatedStats.SwingDamage = new DPSAnalysis(dpsMelee, 1 - cs.AverageWhiteHitChance, cs.AverageDodge, cs.GlancingRate, cs.AverageWhiteCritChance, cs.MeleePPM);
+            calculatedStats.SwingDamage = new DPSAnalysis(dpsMelee, 1 - cs.AverageWhiteHitChance, cs.AverageDodge, cs.GlancingRateModified, cs.AverageWhiteCritChance, cs.MeleePPM);
             calculatedStats.Stormstrike = new DPSAnalysis(dpsSS, 1 - cs.AverageYellowHitChance, cs.AverageDodge, -1, cs.AverageYellowCritChance, 60f / cs.AbilityCooldown(EnhanceAbility.StormStrike));
             calculatedStats.LavaLash = new DPSAnalysis(dpsLL, 1 - cs.ChanceYellowHitOH, cs.ChanceDodgeOH, -1, cs.ChanceYellowCritOH, 60f / cs.AbilityCooldown(EnhanceAbility.LavaLash));
             calculatedStats.EarthShock = new DPSAnalysis(dpsES, 1 - cs.ChanceSpellHit, -1, -1, cs.ChanceSpellCrit, 60f / cs.AbilityCooldown(EnhanceAbility.EarthShock));
@@ -634,6 +636,8 @@ namespace Rawr.Enhance
                 calcOpts.Magma ? 60f / cs.AbilityCooldown(EnhanceAbility.MagmaTotem) : 60f / cs.AbilityCooldown(EnhanceAbility.SearingTotem));
             calculatedStats.FlameTongueAttack = new DPSAnalysis(dpsFT, 1 - cs.ChanceSpellHit, -1, -1, cs.ChanceSpellCrit, cs.FTPPM);
             calculatedStats.FireNova = new DPSAnalysis(dpsFireNova, 1 - cs.ChanceSpellHit, -1, -1, cs.ChanceSpellCrit, 60f / cs.AbilityCooldown(EnhanceAbility.FireNova));
+            calculatedStats.GlancingBlowsCap = cs.GetGlancingBlowCap()*100f;
+            calculatedStats.CripCap = cs.GetCritCap()*100f;
 
 #if RAWR3
             calculatedStats.Version = VERSION;

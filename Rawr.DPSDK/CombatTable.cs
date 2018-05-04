@@ -238,6 +238,11 @@ namespace Rawr.DPSDK
                 calcs.MHAttackSpeed = MH.hastedSpeed;
                 calcs.MHWeaponDamage = MH.damage;
                 calcs.MHExpertise = MH.effectiveExpertise;
+
+                //if (character.DeathKnightTalents.TundraStalker > 0)
+                //{
+                //    calcs.MHExpertise += 1f * character.DeathKnightTalents.TundraStalker;
+                //}
             }
 
             if (character.OffHand != null && DW)
@@ -250,6 +255,11 @@ namespace Rawr.DPSDK
                 calcs.OHAttackSpeed = OH.hastedSpeed;
                 calcs.OHWeaponDamage = OH.damage;
                 calcs.OHExpertise = OH.effectiveExpertise;
+
+                //if (character.DeathKnightTalents.TundraStalker > 0)
+                //{
+                //    calcs.OHExpertise += 1f * character.DeathKnightTalents.TundraStalker;
+                //}
             }
 
             if (additionalItem != null && ((additionalItem.Slot == ItemSlot.MainHand) || (additionalItem.Slot == ItemSlot.TwoHand) || additionalItem.Slot == ItemSlot.OneHand))

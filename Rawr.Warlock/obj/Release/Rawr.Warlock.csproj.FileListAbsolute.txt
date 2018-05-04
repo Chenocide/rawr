@@ -1,0 +1,10 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Warlock.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.Warlock.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.csprojResolveAssemblyReference.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.CalculationOptionsPanelWarlock.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.TextInputDialog.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Warlock\obj\Release\Rawr.Warlock.pdb

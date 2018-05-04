@@ -175,6 +175,20 @@ namespace Rawr.Enhance
             set { _overMeleeCritCap = value; }
         }
 
+        private float _critCap;
+        public float CripCap
+        {
+            get { return _critCap; }
+            set { _critCap = value; }
+        }
+
+        private float _glancingBlowsCap;
+        public float GlancingBlowsCap
+        {
+            get { return _glancingBlowsCap; }
+            set { _glancingBlowsCap = value; }
+        }
+
         private float _armorMitigation;
 		public float ArmorMitigation
 		{
@@ -446,6 +460,8 @@ namespace Rawr.Enhance
                     BasicStats.CritRating.ToString("F0", CultureInfo.InvariantCulture),
                     (StatConversion.GetCritFromRating(BasicStats.CritRating) * 100f).ToString("F2", CultureInfo.InvariantCulture)));
 
+            dictValues.Add("Crit Cap", CripCap.ToString("F2", CultureInfo.InvariantCulture) + "%");
+            dictValues.Add("Glancing Blows", GlancingBlowsCap.ToString("F2", CultureInfo.InvariantCulture) + "%");
             dictValues.Add("Spell Crit", String.Format("{0}*Crit Rating {1} (+{2}% crit chance)",
                 SpellCrit.ToString("F2", CultureInfo.InvariantCulture) + "%",
                 BasicStats.CritRating.ToString("F0", CultureInfo.InvariantCulture),

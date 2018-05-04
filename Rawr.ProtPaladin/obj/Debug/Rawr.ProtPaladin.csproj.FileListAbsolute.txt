@@ -1,0 +1,8 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.ProtPaladin.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.ProtPaladin.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.CalculationOptionsPanelProtPaladin.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.ProtPaladin\obj\Debug\Rawr.ProtPaladin.pdb

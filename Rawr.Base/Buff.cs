@@ -125,8 +125,12 @@ namespace Rawr
                 using (StreamWriter writer = new StreamWriter(_savedFilePath, false, Encoding.UTF8))
                 {
                     XmlSerializer serializer = new XmlSerializer(typeof(BuffList));
-                    serializer.Serialize(writer, _allBuffs);
-                    writer.Close();
+                    long length = new FileInfo(_savedFilePath).Length;
+                    if (length == 0) { 
+                        serializer.Serialize(writer, _allBuffs);
+                        writer.Close();
+                    }
+                    
                 }
             } catch (Exception) {
                 // Log.Write(ex.Message);

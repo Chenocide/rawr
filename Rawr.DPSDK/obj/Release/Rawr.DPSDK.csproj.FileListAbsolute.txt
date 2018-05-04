@@ -1,0 +1,12 @@
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.DPSDK.dll.config
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.DPSDK.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Release\Data\Rawr.DPSDK.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.CalculationOptionsPanelDPSDK.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.Graph.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.Properties.Resources.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.RotationViewer.resources
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.csproj.GenerateResource.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.csproj.CoreCompileInputs.cache
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.csproj.CopyComplete
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.dll
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.DPSDK\obj\Release\Rawr.DPSDK.pdb
