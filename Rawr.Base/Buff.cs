@@ -1074,6 +1074,9 @@ namespace Rawr
                 Group = "Class Buffs",
                 Stats = { MageMoltenArmor = 1f },
                 ConflictingBuffs = new List<string>(new string[] { "Mage Class Armor" }),
+                Improvements = {
+                    new Buff { Name = "T9 2set bonus", Source = "T9 2set bonus", Stats = { Mage2T9 = 1 } }
+                },
                 AllowedClasses = new List<CharacterClass> { CharacterClass.Mage }
             });
             defaultBuffs.Add(new Buff()
