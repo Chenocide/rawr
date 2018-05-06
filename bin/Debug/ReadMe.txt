@@ -1,33 +1,22 @@
-Rawr v2.3.23.0
-------------
-
-We're pleased to announce that, after long last, Rawr3 has entered public beta. You're still welcome to continue using Rawr2 (that's what you're reading the readme for), but we urge you to try out Rawr3, and enjoy all the new features and benefits. Rawr3 is a port of Rawr to Silverlight, which means:
-
-    - You can run Rawr3 in your web browser.
-    - No need to download or install anything.
-    - It runs on Mac OS X (Intel). Welcome to Rawr, Mac users!
-    - You can optionally install it locally with 2 clicks from the web version, if you want to have it locally for offline use.
-    - Lots more.
-
- So give Rawr3 a try today! Get started at:   http://elitistjerks.com/rawr.php
- Please remember that it's still a beta, though, so lots of things are likely to be buggy or incomplete!
-   
-   
-And now back to Rawr v2.3.23.0.
- - Fix for default data of a few items.
- - Added a few buffs and reorganized the grouping of several buffs.
- - Fix for base agility on taurens being off by 1.
- - The optimizer will now consider items which have been marked available and are equippable, even if their item type is filtered out.
- - Rawr.Hunter: Fix for the ability to select Hunter's Mark. Fix for a crash with Pet buffs and talents.
- - Rawr.ShadowPriest: Fix for the bug with +hit calculations.
- - Rawr.Elemental: Fix for a bug involving DPS Fire Totems without 4T10.
- - Rawr.DPSDK: Added some ArPen-based default gemming templates. Improvements to the way the optimal rotation is detected. Fix for nested special effects producing inflated DPS. Added Resilience and Spell Penetration as optimizable stats. Fix for Cinderglacier being overvalued.
- - Rawr.TankDK: Improvements to the way the optimal rotation is detected. Added Resilience and Spell Penetration as optimizable stats.
- - Rawr.Moonkin: Fix for 2T10 having value without Omen of Clarity.
- - Rawr.Rogue: Added an option to only use the Custom Rotation when optiming. This greatly speeds up the optimization for those who know the best rotation.
-
+v1.0
 
 Recent Changes:
+
+First iteration of Rawr made specifically for the private server Dalaran-WoW.
+The changes made consists of a mix of bugfixes in Rawr and implementation of Dalaran-WoW specific bugs and mechanics. 
+
+ -Glancing blows cap changed from 24% to 25%
+ -Dual wielding miss change changed from 27% to 24.2%
+ -Fixed Death Knights not benefiting from expertise gained from talents.
+ -No crit cap mechanic implemented for Enhancement shamans. 
+ -Expertise fix added as buff (41 rating - 5 expertise).
+ -Orc shaman int fix added as buff (11 Int).
+ -3% spell hit added as buff (Stackable hit buffs).
+ -Fixed BuffCache being spammed with redundant data.
+
+The long term goal is to implement the new crit mechanics to all DPS classes, although the expected timeframe for this is unlimited. 
+
+Cheno - Rampage
 
 Instructions
 ------------
@@ -130,6 +119,19 @@ Known Issues:
 
 OLDER VERSION HISTORY
 ---------------------
+v2.3.23.0
+ - Fix for default data of a few items.
+ - Added a few buffs and reorganized the grouping of several buffs.
+ - Fix for base agility on taurens being off by 1.
+ - The optimizer will now consider items which have been marked available and are equippable, even if their item type is filtered out.
+ - Rawr.Hunter: Fix for the ability to select Hunter's Mark. Fix for a crash with Pet buffs and talents.
+ - Rawr.ShadowPriest: Fix for the bug with +hit calculations.
+ - Rawr.Elemental: Fix for a bug involving DPS Fire Totems without 4T10.
+ - Rawr.DPSDK: Added some ArPen-based default gemming templates. Improvements to the way the optimal rotation is detected. Fix for nested special effects producing inflated DPS. Added Resilience and Spell Penetration as optimizable stats. Fix for Cinderglacier being overvalued.
+ - Rawr.TankDK: Improvements to the way the optimal rotation is detected. Added Resilience and Spell Penetration as optimizable stats.
+ - Rawr.Moonkin: Fix for 2T10 having value without Omen of Clarity.
+ - Rawr.Rogue: Added an option to only use the Custom Rotation when optiming. This greatly speeds up the optimization for those who know the best rotation.
+
 v2.3.22.0
  -Fix for the stats of Imp Lay on Hands.
  -Fixes to a couple item stats.

@@ -149,6 +149,22 @@ namespace Rawr
                             loadedBuffs = (List<Buff>)serializer.Deserialize(reader);
                             reader.Close();
                         }
+
+                        for (int i = 0; i < loadedBuffs.Count; i++){
+                            if(loadedBuffs[i].IsCustom == true)
+                            {
+                                loadedBuffs[i].AllowedClasses.RemoveRange(0, 10);
+                                loadedBuffs[i].Professions.RemoveRange(0,12);
+                                loadedBuffs[i].ConflictingBuffs.RemoveRange(0,1);
+                                if (loadedBuffs[i].Improvements.Count > 0)
+                                {
+                                    loadedBuffs[i].Improvements[0].AllowedClasses.RemoveRange(0,10);
+                                    loadedBuffs[i].Improvements[0].Professions.RemoveRange(0, 12);
+                                    loadedBuffs[i].Improvements[0].ConflictingBuffs.RemoveRange(0, 1);
+                                }
+                                else { }
+                            }
+                        }
                     }
                 } catch (System.Exception) {
                     //Log.Write(ex.Message);
