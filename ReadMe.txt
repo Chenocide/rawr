@@ -13,6 +13,7 @@ The changes made consists of a mix of bugfixes in Rawr and implementation of Dal
  -Orc shaman int fix added as buff (11 Int).
  -3% spell hit added as buff (Stackable hit buffs).
  -Fixed BuffCache being spammed with redundant data.
+ -Mage T9 2P Molten Armor bonus added as buff 
 
 The long term goal is to implement the new crit mechanics to all DPS classes, although the expected timeframe for this is unlimited. 
 
