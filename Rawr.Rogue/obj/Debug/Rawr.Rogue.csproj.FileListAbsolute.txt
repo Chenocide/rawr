@@ -1,6 +1,5 @@
 C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Rogue.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Rogue.pdb
-C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Debug\Rawr.Rogue.csprojResolveAssemblyReference.cache
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Debug\Rawr.Rogue.CalculationOptionsPanelRogue.resources
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Debug\Rawr.Rogue.csproj.GenerateResource.cache
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Rogue\obj\Debug\Rawr.Rogue.csproj.CoreCompileInputs.cache

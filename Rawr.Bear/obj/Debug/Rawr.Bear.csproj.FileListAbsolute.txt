@@ -6,4 +6,3 @@ C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Debug\Rawr.Bear.csproj.Cor
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Debug\Rawr.Bear.csproj.CopyComplete
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Debug\Rawr.Bear.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Debug\Rawr.Bear.pdb
-C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Bear\obj\Debug\Rawr.Bear.csprojResolveAssemblyReference.cache

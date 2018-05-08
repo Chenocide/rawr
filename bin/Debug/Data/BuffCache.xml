@@ -3760,7 +3760,48 @@
       <MageMoltenArmor>1</MageMoltenArmor>
     </Stats>
     <SetThreshold>0</SetThreshold>
-    <Improvements />
+    <Improvements>
+      <Buff>
+        <Name>T9 2set bonus</Name>
+        <Stats>
+          <Mage2T9>1</Mage2T9>
+        </Stats>
+        <Source>T9 2set bonus</Source>
+        <SetThreshold>0</SetThreshold>
+        <Improvements />
+        <IsTargetDebuff>false</IsTargetDebuff>
+        <IsCustom>false</IsCustom>
+        <AllowedClasses>
+          <CharacterClass>DeathKnight</CharacterClass>
+          <CharacterClass>Druid</CharacterClass>
+          <CharacterClass>Hunter</CharacterClass>
+          <CharacterClass>Mage</CharacterClass>
+          <CharacterClass>Paladin</CharacterClass>
+          <CharacterClass>Priest</CharacterClass>
+          <CharacterClass>Rogue</CharacterClass>
+          <CharacterClass>Shaman</CharacterClass>
+          <CharacterClass>Warlock</CharacterClass>
+          <CharacterClass>Warrior</CharacterClass>
+        </AllowedClasses>
+        <Professions>
+          <Profession>None</Profession>
+          <Profession>Alchemy</Profession>
+          <Profession>Blacksmithing</Profession>
+          <Profession>Enchanting</Profession>
+          <Profession>Engineering</Profession>
+          <Profession>Herbalism</Profession>
+          <Profession>Inscription</Profession>
+          <Profession>Jewelcrafting</Profession>
+          <Profession>Leatherworking</Profession>
+          <Profession>Mining</Profession>
+          <Profession>Skinning</Profession>
+          <Profession>Tailoring</Profession>
+        </Professions>
+        <ConflictingBuffs>
+          <string xsi:nil="true" />
+        </ConflictingBuffs>
+      </Buff>
+    </Improvements>
     <IsTargetDebuff>false</IsTargetDebuff>
     <IsCustom>false</IsCustom>
     <AllowedClasses>

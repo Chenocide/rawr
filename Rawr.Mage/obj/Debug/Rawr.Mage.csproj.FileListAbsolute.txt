@@ -11,4 +11,3 @@ C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Debug\Rawr.Mage.csproj.Cor
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Debug\Rawr.Mage.csproj.CopyComplete
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Debug\Rawr.Mage.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Debug\Rawr.Mage.pdb
-C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Mage\obj\Debug\Rawr.Mage.csprojResolveAssemblyReference.cache

@@ -7,4 +7,3 @@ C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csproj
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csproj.CopyComplete
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.pdb
-C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.TankDK\obj\Debug\Rawr.TankDK.csprojResolveAssemblyReference.cache

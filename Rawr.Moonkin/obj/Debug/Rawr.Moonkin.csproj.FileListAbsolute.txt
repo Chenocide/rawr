@@ -1,10 +1,10 @@
 C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Moonkin.dll.config
 C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Moonkin.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\bin\Debug\Data\Rawr.Moonkin.pdb
+C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.csprojResolveAssemblyReference.cache
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.CalculationOptionsPanelMoonkin.resources
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.csproj.GenerateResource.cache
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.csproj.CoreCompileInputs.cache
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.csproj.CopyComplete
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.dll
 C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.pdb
-C:\Users\Cheno-PC\Documents\GitHub\rawr\Rawr.Moonkin\obj\Debug\Rawr.Moonkin.csprojResolveAssemblyReference.cache
