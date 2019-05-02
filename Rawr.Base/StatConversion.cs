@@ -89,7 +89,7 @@ namespace Rawr
         /// You need to *add* this to your current crit value as it's a negative number.
         /// [80: 0, 81: -0.006, 82: -0.012, 83: -0.048]
         /// </summary>
-        public static readonly float[] NPC_LEVEL_CRIT_MOD               = new float[] {-0.0000f,-0.0060f,-0.0120f,-0.0480f }; //  -4.8%
+        public static readonly float[] NPC_LEVEL_CRIT_MOD               = new float[] {-0.0000f,-0.0000f,-0.0000f,-0.0000f }; //  -4.8%
 
         public static readonly float[] NPC_ARMOR                        = new float[] { 9729f, 10034f, 10338f, 10643f };
 
